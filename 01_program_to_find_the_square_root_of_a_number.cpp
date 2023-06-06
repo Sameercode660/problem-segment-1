@@ -6,7 +6,7 @@ bool isPrime(int number)
 {
     for(int i = 2; i < number; i++)
     {
-        if(!(number%i)) return false;
+        if(!(number%)) return false;
     }
     return true;
 }
@@ -20,4 +20,6 @@ int main(void)
 
     if(!isPrime(num)) cout << "Number is not prime!";
     else cout << "Number is Prime!";
+
+    // This is a sample program the takes a number as input and tells whether that number is prime or not
 }
